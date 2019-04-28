@@ -5,7 +5,7 @@
 // Date:                        <date goes here>
 // Instructor:                  Dr. B. Hohlt
 //
-//  Chapter 11 --  Corporate Sales
+//  											Chapter 11 --  Corporate Sales
 //
 
 #include <iostream>
