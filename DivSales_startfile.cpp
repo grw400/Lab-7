@@ -27,7 +27,7 @@ class DivSales
 };
 
 // function prototypes
-ostream &operator<<(ostream &out, DivSales divisions);
+ostream &operator<<(ostream &out, const DivSales divisions);
 
 // main
 int main()
@@ -66,7 +66,10 @@ int main()
 	cout << "The total corporate sales are: $" << DivSales::getCorpSales() << endl;
 	
 	// Output sales by division with operator<<
-	cout << divisions << endl;
+	for (int count = 0; count < NUM_DIV; count++)
+	{
+		cout << divisions << endl;
+	}
 	// Output total sales
     
     return 0;
